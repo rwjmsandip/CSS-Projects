@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Login Form</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: lightblue;
+    }
+
+    .container {
+      width: 300px;
+      padding: 20px;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    h2 {
+      text-align: center;
+      color: blue;
+      margin-bottom: 15px;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    label {
+      margin-top: 10px;
+    }
+
+    input {
+      margin-top: 5px;
+      padding: 8px;
+      border: 1px solid gray;
+      border-radius: 5px;
+    }
+
+    .checkbox {
+      margin-top: 10px;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    button {
+      margin-top: 15px;
+      padding: 10px;
+      background-color: blue;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: darkblue;
+    }
+
+    p {
+      margin-top: 10px;
+      text-align: center;
+      font-size: 14px;
+    }
+
+    a {
+      text-decoration: none;
+      color: red;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <h2>Login</h2>
+
+    <form>
+      <label for="username">Username</label>
+      <input type="text" id="username" placeholder="Enter username">
+
+      <label for="password">Password</label>
+      <input type="password" id="password" placeholder="Enter password">
+
+      <label class="checkbox">
+        <input type="checkbox">
+        Show Password
+      </label>
+
+      <button type="submit">Login</button>
+
+      <p>
+        Forgot <a href="#">Username</a> /
+        <a href="#">Password?</a>
+      </p>
+
+      <p>
+        Don't have an account?
+        <a href="#">Register</a>
+      </p>
+    </form>
+  </div>
+
+</body>
+
+</html>

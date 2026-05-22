@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>twitter login page</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    section {
+      display: flex;
+    }
+
+    .logo,
+    .content {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .logo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 90vh;
+    }
+
+    .logo i {
+      font-size: 180px;
+    }
+
+    .content {
+      padding: 35px;
+      margin-top: 50px;
+    }
+
+    h2 {
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bolder;
+      font-size: 38px;
+    }
+
+    h4 {
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bolder;
+      font-size: 18px;
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+
+    .common-btn {
+      border: 1px solid rgba(0, 0, 0, 0.08);
+      padding: 4px 8px;
+      border-radius: 20px;
+      font-size: 8px;
+      margin: 4px 0;
+      width: 150px;
+      background-color: white;
+      cursor: pointer;
+    }
+
+    .common-btn:hover {
+      background-color: #eaeaea;
+    }
+
+    .line {
+      font-size: 5px;
+      color: grey;
+      margin: 5px 0;
+      margin-left: 16px;
+    }
+
+    .signIn-btn {
+      background-color: black;
+      color: white;
+      border: 1px solid black;
+      font-weight: bold;
+    }
+
+    .signIn-btn:hover {
+      background-color: white;
+      color: black;
+      border: 1px solid black;
+    }
+
+    .para-1 {
+      font-size: 5px;
+      color: grey;
+      margin-top: 5px;
+      letter-spacing: 0.1px;
+    }
+
+    .para-2 {
+      margin-top: 22px;
+      margin-bottom: 3px;
+      font-size: 8px;
+      font-weight: bold;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    footer {
+      text-align: center;
+    }
+
+    footer a {
+      text-decoration: none;
+      font-size: 8px;
+      font-family: Arial, Helvetica, sans-serif;
+      color: grey;
+    }
+
+    footer a:hover {
+      color: rgb(65, 65, 65);
+    }
+  </style>
+</head>
+
+<body>
+  <section>
+    <div class="logo">
+      <i class="fa-brands fa-x-twitter"></i>
+    </div>
+
+    <div class="content">
+      <h2>Happening now</h2>
+      <h4>Join Twitter today.</h4>
+
+      <button class="common-btn signup-btn">
+        <i class="fa-brands fa-google"></i> Sign up with Google
+      </button>
+
+      <button class="common-btn">
+        <i class="fa-brands fa-apple"></i> Sign up with Apple
+      </button>
+
+      <p class="line">----------------------------- OR -------------------------------</p>
+
+      <button class="common-btn signIn-btn">Create account</button>
+
+      <p class="para-1">
+        By signing up, you agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>,<br>
+        including Cookie Use.
+      </p>
+
+      <p class="para-2">Already have an account?</p>
+
+      <button class="common-btn">Sign in</button>
+      <button class="common-btn">Get Grok</button>
+    </div>
+  </section>
+
+  <footer>
+    <a href="#">About |</a>
+    <a href="#">Help Center |</a>
+    <a href="#">Terms of Service |</a>
+    <a href="#">Privacy Policy |</a>
+    <a href="#">Cookie Policy |</a>
+    <a href="#">Ads info |</a>
+    <a href="#">Blog |</a>
+    <a href="#">Status |</a>
+    <a href="#">Careers |</a>
+    <a href="#">Brand Resources |</a>
+    <a href="#">Advertising</a>
+  </footer>
+</body>
+
+</html>

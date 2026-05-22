@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>W3Schools Footer Clone</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #1d2033;
+      color: white;
+    }
+
+    .footer {
+      width: 100%;
+      padding: 40px 80px;
+    }
+
+    /* Top Menu */
+
+    .top-menu {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 60px;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      font-size: 55px;
+      font-weight: bold;
+      color: white;
+    }
+
+    .logo span {
+      font-size: 20px;
+      display: block;
+      margin-top: -10px;
+    }
+
+    .menu-links {
+      display: flex;
+      gap: 45px;
+      flex-wrap: wrap;
+    }
+
+    .menu-links a {
+      text-decoration: none;
+      color: #ffd966;
+      font-size: 16px;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+
+    /* Footer Columns */
+
+    .footer-content {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 50px;
+      text-align: center;
+      margin-bottom: 60px;
+    }
+
+    .footer-box h2 {
+      margin-bottom: 25px;
+      font-size: 22px;
+    }
+
+    .footer-box a {
+      display: block;
+      text-decoration: none;
+      color: white;
+      margin: 8px 0;
+      font-size: 18px;
+    }
+
+    .footer-box a:hover {
+      color: #ffd966;
+    }
+
+    /* Social Icons */
+
+    .social {
+      text-align: center;
+      margin-bottom: 35px;
+    }
+
+    .social a {
+      text-decoration: none;
+      color: white;
+      font-size: 30px;
+      margin: 0 12px;
+    }
+
+    /* Footer Text */
+
+    .footer-text {
+      text-align: center;
+      line-height: 1.8;
+      font-size: 18px;
+      padding: 0 80px;
+      margin-bottom: 30px;
+    }
+
+    .footer-text a {
+      color: white;
+      font-weight: bold;
+    }
+
+    /* Copyright */
+
+    .copyright {
+      text-align: center;
+      font-size: 18px;
+      margin-top: 20px;
+    }
+
+    .copyright a {
+      color: white;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+
+  <footer class="footer">
+
+    <!-- Top Menu -->
+
+    <div class="top-menu">
+
+      <div class="logo">
+        W³
+        <span>schools</span>
+      </div>
+
+      <div class="menu-links">
+        <a href="#">PLUS</a>
+        <a href="#">SPACES</a>
+        <a href="#">GET CERTIFIED</a>
+        <a href="#">FOR TEACHERS</a>
+        <a href="#">BOOTCAMPS</a>
+        <a href="#">CONTACT US</a>
+      </div>
+
+    </div>
+
+    <!-- Footer Columns -->
+
+    <div class="footer-content">
+
+      <div class="footer-box">
+        <h2>Top Tutorials</h2>
+
+        <a href="#">HTML Tutorial</a>
+        <a href="#">CSS Tutorial</a>
+        <a href="#">JavaScript Tutorial</a>
+        <a href="#">SQL Tutorial</a>
+        <a href="#">Python Tutorial</a>
+        <a href="#">Bootstrap Tutorial</a>
+      </div>
+
+      <div class="footer-box">
+        <h2>Top References</h2>
+
+        <a href="#">HTML Reference</a>
+        <a href="#">CSS Reference</a>
+        <a href="#">JavaScript Reference</a>
+        <a href="#">Python Reference</a>
+        <a href="#">Bootstrap Reference</a>
+      </div>
+
+      <div class="footer-box">
+        <h2>Top Examples</h2>
+
+        <a href="#">HTML Examples</a>
+        <a href="#">CSS Examples</a>
+        <a href="#">JavaScript Examples</a>
+        <a href="#">SQL Examples</a>
+        <a href="#">Python Examples</a>
+      </div>
+
+      <div class="footer-box">
+        <h2>Get Certified</h2>
+
+        <a href="#">HTML Certificate</a>
+        <a href="#">CSS Certificate</a>
+        <a href="#">JavaScript Certificate</a>
+        <a href="#">Python Certificate</a>
+        <a href="#">SQL Certificate</a>
+      </div>
+
+    </div>
+
+    <!-- Social Icons -->
+
+    <div class="social">
+      <a href="#">▶</a>
+      <a href="#">in</a>
+      <a href="#">◎</a>
+      <a href="#">f</a>
+      <a href="#">◉</a>
+    </div>
+
+    <!-- Text -->
+
+    <div class="footer-text">
+      W3Schools is optimized for learning and training.
+      Examples might be simplified to improve reading and learning.
+      Tutorials, references, and examples are constantly reviewed.
+      Read our <a href="#">terms of use</a>,
+      <a href="#">cookies</a> and
+      <a href="#">privacy policy</a>.
+    </div>
+
+    <!-- Copyright -->
+
+    <div class="copyright">
+      Copyright 1999-2026 by Refsnes Data.
+      All Rights Reserved.
+      <a href="#">W3Schools Powered by W3.CSS</a>
+    </div>
+
+  </footer>
+
+</body>
+
+</html>
